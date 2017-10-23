@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+ </head>
+     <svg width="180" height="180" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g></g>
+ <g>
+  <title>Layer 1</title>
+  <ellipse stroke="#007f3f" ry="28.499998" rx="30.500002" id="svg_2" cy="123.999998" cx="78.000002" stroke-width="1.5" fill="#0fffc3"/>
+  <ellipse stroke="#007f3f" ry="28.499998" rx="30.500002" id="svg_3" cy="73.999998" cx="108.000002" stroke-width="1.5" fill="#0fffc3"/>
+  <ellipse stroke="#007f3f" ry="28.499998" rx="30.500002" id="svg_4" cy="123.999998" cx="140.000002" stroke-width="1.5" fill="#0fffc3"/>
+  <text font-weight="bold" font-style="italic" xml:space="preserve" text-anchor="start" font-family="'Palatino Linotype', 'Book Antiqua', Palatino, serif" font-size="30" id="svg_5" y="135.5" x="69.5" stroke-width="0" stroke="#007f3f" fill="#000000">F</text>
+  <text font-weight="bold" font-style="italic" xml:space="preserve" text-anchor="start" font-family="'Palatino Linotype', 'Book Antiqua', Palatino, serif" font-size="30" id="svg_6" y="86.5" x="95.5" stroke-width="0" stroke="#007f3f" fill="#000000">F</text>
+  <text style="cursor: move;" font-weight="bold" font-style="italic" xml:space="preserve" text-anchor="start" font-family="'Palatino Linotype', 'Book Antiqua', Palatino, serif" font-size="30" id="svg_7" y="135.5" x="132.5" stroke-width="0" stroke="#007f3f" fill="#000000">S</text>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_8" y2="110.5" x2="110.5" y1="76.5" x1="61.5" stroke-width="3" stroke="#e07293" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_9" y2="105.5" x2="107.5" y1="156.5" x1="111.5" stroke-width="3" stroke="#e07293" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_10" y2="73.5" x2="159.5" y1="110.5" x1="110.5" stroke-width="3" stroke="#e07293" fill="none"/>
+  <ellipse stroke="#5f5fdd" id="svg_13" cy="69.5" cx="170.5" stroke-width="1.5" fill="#0fffc3"/>
+  <path id="svg_26" d="m109.677305,102.153471c7.00902,-15.947567 34.47059,0 0,20.504015c-34.47059,-20.504015 -7.00902,-36.451582 0,-20.504015z" stroke-width="1.5" stroke="#ff007f" fill="#FFAAB8"/>
+  <path id="svg_28" d="m-29.501952,696.400394l11.000001,-190.042783l11.000001,190.042783l-5.500001,0l0,190.957234l-11,0l0,-190.957234l-5.500001,0z" opacity="0.5" stroke-width="1.5" stroke="#5f5fdd" fill="#d62261"/>
+ </g>
+ </svg>
+ <body>
+  <h1>Hoja de Vida</h1>
+  <section>
+    <h2>Datos Personales</h2>
+    <h3>Nombre: Fabiola Fallas</h3>
+    <h3>Edad: 22 años</h3>
+    <h3>Lugar de Nacimiento: Costa Rica</h3>
+  </section>
+   <nav>
+     <ul>
+      <li><a href="C:\Examen\index.html">Inicio</a></li>
+      <li><a href="C:\Examen\educacion.html">Educación</a></li>
+      <li><a href="C:\Examen\experiencia.html">Experiencia</a></li>
+     <ul>
+   </nav>
+   <h2>Educación</h2>
+   <table border="2" bordercolor="black">
+     <thead>
+     <tr>
+       <th>Año</th>
+       <th>Curso</th>
+       <th>Institución</th>
+       <th>Lugar</th>
+       <th>¿Culminó?</th>
+     </tr>
+   </thead>
+   <tbody>
+     <tr>
+       <td>2017</td>
+       <td>HTML5</td>
+       <td>Universidad Fidélitas</td>
+       <td>San José, Costa Rica</td>
+       <td>Sí</td>
+     </tr>
+     <tr>
+       <td>2017</td>
+       <td>Project Management</td>
+       <td>Universidad Politécnica Internacional</td>
+       <td>San José, Costa Rica</td>
+       <td>Sí</td>
+     </tr>
+     <tr>
+       <td>2016</td>
+       <td>Excel Avanzado</td>
+       <td>Universidad Fidélitas</td>
+       <td>San José, Costa Rica</td>
+       <td>Sí</td>
+     </tr>
+   </tbody>
+   </table>
+   <section>
+     <h2>Agregar Estudios</h2>
+     <form>
+        <p>Año:
+         <select>
+           <option value="1">2017</option>
+           <option value="1">2016</option>
+           <option value="1">2015</option>
+           <option value="1">2014</option>
+           <option value="1">2013</option>
+           <option value="1">2012</option>
+           <option value="1">2011</option>
+           <option value="1">2010</option>
+           </p>
+        </select>
+      <p>Curso:
+        <input type="text" name="curso">
+      </p>
+      <p>Institución:
+      <input type="text" name="Institucion" required>
+      </p>
+      <p>Lugar:
+        <textarea name="Lugar" rows="1" cols="50"></textarea>
+      </p>
+      <p>¿Culminó?
+        <input type="radio" id="status1" name="status1" value="yes">
+        <label for="status1">Sí</label>
+        <input type="radio" id="status2" name="status2" value="no">
+        <label for="status2">No</label>
+     </p>
+     <input type="button" value="Enviar">
+     </p>
+   </body>
+   <footer>
+   <p><a href="mailto:fabiolafasa@hotmail.com">Enviame un correo</a> | <b>Teléfono:</b> +506 8586-7764 | <a href="https://www.facebook.com/fabii.fallassanchez">Facebook</a> | <b>Dirección:</b> Costa Rica</p>
+   </footer>
+ </html>
